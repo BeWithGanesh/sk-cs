@@ -1,0 +1,187 @@
+body {
+		background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+		font-family: 'Rubik', sans-serif;
+		background: #f9813a;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+html {
+	scroll-behavior: smooth;
+	text-decoration: none;
+}
+
+a:hover{
+		text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+
+
+.fot {
+		overflow: hidden;
+		background: #1a1c20;
+		color: #f9813a !important;
+
+}
+
+small {
+		font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+		color: #989c9e !important
+}
+
+.mt-55 {
+		margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+		font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+		font-size: 21px !important
+}
+
+.rights {
+		font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+
+.card{
+  margin: 5% 0%;
+}
+
+.card-body{
+  margin: 0% 0% 0% 3%;
+  padding: 6% 0%;
+}
+
+
+.cointainer-fluids{
+	padding: 3% 16%;
+}
+
+.gly{
+  background-color: #f9813a;
+  padding: 3%;
+  margin-bottom: 50px;
+}
+
+
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 50px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+
+@media ( max-width: 30em ) {
+  h1 {
+      font-size: 1.7em;
+    }
+}
+
+
+.val {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* .review{
+	padding: 0% 15%;
+} */
+
+
+.inner{
+	overflow: visible;
+}
+
+.inner img{
+	transition: all 1s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.2);
+}
+
+
+.reviews{
+
+  background-color: #fff;
+  padding: 3% 15% 7%;
+  
+}
+
+a{
+  color: #f9813a;
+}
+
+a:hover{
+  color: #fff;
+}
+
+
